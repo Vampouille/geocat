@@ -48,9 +48,9 @@
       <build>
         <plugins>
           <plugin>
-            <groupId>${groupId}</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>transifex</artifactId>
-            <version>${version}</version>
+            <version>${project.version}</version>
             <executions>
               <execution>
                 <id>get-translations</id>
