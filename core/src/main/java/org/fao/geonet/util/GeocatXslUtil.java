@@ -833,7 +833,7 @@ public class GeocatXslUtil {
             org.jdom.Element el, boolean removeEmpty, Multimap<String, String> thesaurusKeys, Map<String,
             Pair<String, org.jdom.Element>> missingKeywords,
             Map<Pair<String, String>, String> wordToIdLookup) throws JDOMException {
-        final List<Namespace> namespaces = Lists.newArrayList(ISO19139Namespaces.GMD);
+        final List<Namespace> namespaces = Lists.newArrayList(ISO19139Namespaces.GMD, ISO19139Namespaces.SRV);
         @SuppressWarnings("unchecked")
         final List<org.jdom.Element> keywordEls = Lists.newArrayList((List<org.jdom.Element>)
                 Xml.selectNodes(el, "*/gmd:descriptiveKeywords|*/srv:keywords", namespaces));
