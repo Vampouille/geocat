@@ -10,7 +10,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>schema-iso19139.che</artifactId>
-  <name>Geocata schema plugin for ISO19139.che</name>
+  <name>Geocat schema plugin for ISO19139.che</name>
 
   <dependencies>
     <dependency>
