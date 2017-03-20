@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  database:
+    image: geocat_database
+    build: .
+    volumes:
+      - postgresql_data:/var/lib/postgresql/data
+    ports:
+      - "54322:5432"
+
+volumes:
+  postgresql_data:

@@ -7,3 +7,6 @@
 [submodule "web-ui/src/main/resources/catalog/lib/style/font-awesome"]
 	path = web-ui/src/main/resources/catalog/lib/style/font-awesome
 	url = https://github.com/FortAwesome/Font-Awesome.git
+[submodule "db/wait-for-it"]
+	path = db/wait-for-it
+	url = https://github.com/vishnubob/wait-for-it.git
